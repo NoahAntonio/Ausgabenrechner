@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Never commit real data or credentials
+*.csv
+.env
+credentials.json
+client_secret_*.json
+token.json
+service_account.json
